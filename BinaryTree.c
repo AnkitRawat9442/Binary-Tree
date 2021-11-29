@@ -508,10 +508,7 @@ void mirror(Tree **node)  //    time complexity -> O(n)
     mirror(&((*node)->right));
 }
 
-void topview()
-{
-    return;
-}
+
 
 // _________________________________________________________________________________________________//
 int main()
